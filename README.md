@@ -1,5 +1,13 @@
-# Virtual-Library-Management-Java
+### Description:
+Picture this: It’s 1960, and you’re a librarian. You’re tired because managing all the books in the library using
+a physical registry is cumbersome. This project offers a solution to that problem. 
 
-Context: You are given a ton of books, authors, editorial groups, publishing brand and publishing retailers. 
-<br>
-You can choose to see books for a specific publishing retailer, see common books from two publishing retailers, see all unique books from two retailers joined together, see which languages are available for a specific retailer or see all the countries where you can find a specific book.
+Functionalities:
+* Get all books from a retailer given its ID
+* Get all books from a publishing retailer
+* Get common books between two retailers
+* See in which countries you can find a book given its ID
+* Get languages of the books from a specific publishing retailer
+
+
+
