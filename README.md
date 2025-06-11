@@ -14,7 +14,6 @@ This repository contains a small Java application for managing book inventories 
 ```
 src/                 Java source files
 init/                Input files containing sample data
-out/production/InventoryManager/  Compiled classes (generated when using IntelliJ IDEA)
 ```
 The input files are delimited by `###` and hold sample information about books, authors, languages, retailers, and their relationships.
 
@@ -28,9 +27,16 @@ javac -d out $(find src -name "*.java")
 # Run the entry point which loads data and executes test cases
 java -cp out main.TestAll
 ```
-
 The `TestAll` class will load the input files and print the results of several example queries to the console.
 
+
+## Contributing
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## Code of Conduct
+Participating in this project means adhering to our [Code of Conduct](CODE_OF_CONDUCT.md).
+
 ## License
-This code is released under the [Apache License 2.0](LICENSE).
+This software is available under the [Apache 2.0](LICENSE) license.
+
 
