@@ -14,7 +14,7 @@ This repository contains a small Java application for managing book inventories 
 ```
 src/                 Java source files
 init/                Input files containing sample data
-out/                 Compiled classes (generated when using IntelliJ IDEA)
+out/production/InventoryManager/  Compiled classes (generated when using IntelliJ IDEA)
 ```
 The input files are delimited by `###` and hold sample information about books, authors, languages, retailers, and their relationships.
 
